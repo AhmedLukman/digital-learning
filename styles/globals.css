@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  font-size: large;
+}
+
+.visionAnimation {
+  animation-name: visionAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+.missionAnimation {
+  animation-name: missionAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+}
+
+.valueAnimation {
+  animation-name: valueAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+}
+
+@keyframes valueAnimation {
+  0% {
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes visionAnimation {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes missionAnimation {
+  0% {
+    top: 150px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.qualityTeachingImageAnimation {
+  animation-name: qualityTeachingImageAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+      animation-delay: 1s;
+
+}
+
+@keyframes qualityTeachingImageAnimation {
+  0% {
+    right: 100px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+.qualityTeachingTextAnimation {
+  animation-name: qualityTeachingTextAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+      animation-delay: 1s;
+
+}
+
+@keyframes qualityTeachingTextAnimation {
+  0% {
+    left: 100px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media (width < 500px) {
+  .qualityTeachingImageAnimation, .qualityTeachingTextAnimation {
+    animation: none;
+  }  
+}
+
+.introParagraphAnimation {
+  animation-name: introParagraphAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+      animation-delay: 1s;
+
+}
+
+@keyframes introParagraphAnimation {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.projectsAnimation {
+  animation-name: projectsAnimation;
+  animation-duration: 2s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+@keyframes projectsAnimation {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 0;
+  }
+}
