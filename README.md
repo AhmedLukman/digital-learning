@@ -84,7 +84,7 @@ digital-learning/
 
 ## 🎯 About iLabAfrica Digital Learning
 
-The Digital Learning Unit at iLabAfrica focuses on research and leveraging innovation in the area of ICT for Education. Our mission is to use ICT effectively in teaching, creativity, and delivery of educational content, promoting **"Quality Teaching, Any Time, Everywhere"**.
+The Digital Learning Unit at iLabAfrica focuses on research and leveraging innovation in the area of ICT for Education. Their mission is to use ICT effectively in teaching, creativity, and delivery of educational content, promoting **"Quality Teaching, Any Time, Everywhere"**.
 
 ## 📄 License
 
